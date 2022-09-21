@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: black;
+  }
+/* Botton for back-top*/
+  .back-top {
+    background-color: #5b5959;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    overflow:hidden;
+    justify-content: end;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+
+ .Logo {
+  height: 50px;
+ }
+
+ .navbar {
+  position:fixed;
+  width: 100%;
+ }
+ 
+ /*END NAV BAR*/
+
+
+ .Title {
+  display: flex;
+  justify-content: center;
+padding-top: 100px;
+background-color: rgba(97, 97, 97, 0.819);
+ }
+
+
+ .Contacts{
+  margin-top: 100px;
+margin-bottom: 200px;
+ }
+
+ .The-Contacts{
+  color: aliceblue;
+  padding-top: 50px;
+  padding-left: 30%;
+ }
+
+
+
+
+  /*FOOTER*/
+  footer{
+    margin-top:50px ;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    background-color: #5b5959;
+  }
+  .footer{
+    padding-top: 20px;
+  }
+  
+
+
+
+    /* Mobile Styles */
+@media only screen and (max-width: 415px) {
+ 
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 416px) and (max-width: 960px){
+
+
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+}

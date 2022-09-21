@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+  h2{
+    text-align: center;
+  }
+/* Botton for back-top*/
+  .back-top {
+    background-color: #5b5959;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    overflow:hidden;
+    justify-content: end;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+
+ .Logo {
+  height: 50px;
+ }
+
+ .navbar {
+  position:fixed;
+  width: 100%;
+ }
+ 
+ /*END NAV BAR*/
+
+ .img-fluid {
+  position: fixed;
+  z-index: -2;
+  height: 700px;
+  min-width: 1063px;
+  margin-top: 50px;
+ }
+
+ .background {
+  height: 200%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+ }
+
+
+ .text{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  align-items: center;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  margin-left: 20%;
+  
+ }
+ .Title2{
+  color: aliceblue;
+ }
+
+ .description {
+  max-width: 500px;
+  
+ }
+ .botton-description {
+  margin-left: 10%;
+  border: 2px solid  rgb(99, 99, 99);
+  padding: 3px 3px 3px 3px;
+  text-decoration: none;
+  background-color: aliceblue;
+  align-items: center;
+ }
+
+ .botton-description:hover {
+  font-size: 1.1em;
+  justify-content: flex-start;
+ }
+
+ .img-fluid1 {
+  position: absolute;
+  z-index: -2;
+  height: 1100px;
+  width: 100%;
+ }
+ .Description-service{
+  background-color: rgba(240, 248, 255, 0.455);
+  max-width: 400px;
+ }
+ .img-and-txt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+ }
+ 
+ /*FOOTER*/
+ footer{
+  margin-top:50px ;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  background-color: #5b5959;
+}
+.footer{
+  padding-top: 20px;
+}
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 415px) {
+  
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Image {
+    max-width: 300px;
+  }
+
+  .text{
+    align-items: flex-start;
+  }
+
+}
+
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 416px) and (max-width: 960px){
+
+
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+
+
+}
+
+
+
+
+
